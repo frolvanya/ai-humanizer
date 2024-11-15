@@ -15,7 +15,7 @@
         }
     ],
     "dependencies": {
-        "@raycast/api": "^1.66.1",
+        "@raycast/api": "^1.85.1",
         "axios": "^1.6.7"
     },
     "devDependencies": {
@@ -26,6 +26,15 @@
         "prettier": "^3.0.3",
         "typescript": "^5.2.2"
     },
+    "preferences": [
+        {
+            "name": "apiKey",
+            "type": "password",
+            "title": "API Key",
+            "description": "Enter your Rephrasy.ai API key",
+            "required": true
+        }
+    ],
     "scripts": {
         "build": "ray build -e dist",
         "dev": "ray develop",
